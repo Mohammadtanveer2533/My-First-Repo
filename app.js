@@ -13,6 +13,5 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log('Form submitted:', data);
         alert('Application submitted successfully!');
         
-        // Here you can add code to send the data to a server or process it further
     });
 });
