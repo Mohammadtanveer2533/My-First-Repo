@@ -1,0 +1,22 @@
+{
+  "name": "job-application-project",
+  "version": "1.0.0",
+  "description": "A web application for job applications.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build step not defined'",
+    "test": "echo 'Test step not defined'"
+  },
+  "keywords": [
+    "job",
+    "application",
+    "web"
+  ],
+  "author": "Tanveer",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

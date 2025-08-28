@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <h1>Job Application</h1>
+    </header>
+    <main>
+        <form id="application-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="resume">Resume:</label>
+            <input type="file" id="resume" name="resume" required>
+            
+            <button type="submit">Submit Application</button>
+        </form>
+    </main>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
